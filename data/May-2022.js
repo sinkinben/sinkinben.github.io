@@ -1,4 +1,4 @@
-var publishedItems = [
+var May2022 = [
   {
     "date": "2022/05/30",
     "type": "AppleMusic",

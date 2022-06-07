@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
-  <link rel="icon" type="image/png" href="assets/mario.gif">
+  <link rel="icon" type="image/png" href="images/mario.gif">
   <title>sinkinben</title>
   <style>
     :root {
@@ -20,8 +20,7 @@
       --secondary-text-rgb: 255, 255, 255
     }
   </style>
-  <link rel="stylesheet" href="assets/index.css">
-
+  <link rel="stylesheet" href="css/index.css">
   <!-- Import Vue-->
   <script src="https://unpkg.com/vue@3.2.33/dist/vue.global.prod.js"></script>
 </head>
@@ -31,12 +30,11 @@
     <aside class="side">
       <div class="inner">
         <a class="side_logo" href="http://sinkinben.cnblogs.com">
-          <img src="assets/mario.gif">
+          <img src="images/mario.gif">
         </a>
         <h1 class="side_title"><a class="h-card" rel="me" href="https://sinkinben.github.io">sinkinben</a>
         </h1>
         <h2 class="side_subtitle">To share my moments.</h2>
-
 
         <ul class="side_links">
           <!-- Put some social links here -->
@@ -81,19 +79,22 @@
   </div>
 </body>
 
+<!-- Import datasource -->
+<script src="data/June-2022.js"></script>
 <script src="data/May-2022.js"></script>
 <!-- Create and init a Vue app -->
 <script>
-  const VueApp = {
+  const { createApp } = Vue;
+  createApp({
     data() {
       return {
-        publishedItems: []
-      };
+        publishedItems: [],
+      }
     },
-    mounted() { this.publishedItems = publishedItems; }
-  };
-  const app = Vue.createApp(VueApp);
-  app.mount("#published"); // bind with div whose id = "app"
+    mounted() {
+      this.publishedItems = [].concat(June2022, May2022)
+    },
+  }).mount('#published'); // bind with div whose id = "app"
 </script>
 
 </html>
