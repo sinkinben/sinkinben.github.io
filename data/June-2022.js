@@ -1,5 +1,15 @@
 var June2022 = [
   {
+    "date": "2022/06/10",
+    "title": "by sinkinben",
+    "type": "Article Cover",
+    "context": [
+      "I thought I struggled for the life,",
+      "but actually I struggled for a lie."
+    ],
+    "backgroundImage": "images/nanjing-flowers.jpg"
+  },
+  {
     "date": "2022/06/07",
     "type": "AppleMusic",
     "title": "梅艷芳 -《夕陽之歌》",

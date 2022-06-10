@@ -12,7 +12,6 @@ var May2022 = [
   },
   {
     "date": "2022/05/29",
-    "redirect": "https://movie.douban.com/subject/1889243/",
     "title": "《星际穿越》",
     "type": "Article Cover",
     "context": [

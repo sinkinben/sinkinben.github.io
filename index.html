@@ -50,7 +50,7 @@
         <!-- v-for to show the published list -->
         <div v-for="item in this.publishedItems" lang="zh" class="item" v-bind:class="item.type">
           <!-- Show Article Cover and some text -->
-          <a v-if="item.type == 'Article Cover'" class="item-cover" v-bind:href="item.redirect">
+          <div v-if="item.type == 'Article Cover'" class="item-cover">
             <div class="item-cover_image">
               <div v-bind:style="{backgroundImage:'url(' + item.backgroundImage + ')'}"></div>
             </div>
@@ -59,7 +59,7 @@
               <p style="text-align: right;">{{ item.title }}</p>
               <p class="item-date">committed @ {{ item.date }}</p>
             </div>
-          </a>
+          </div>
           <!-- Show AppleMusic and some lyric -->
           <div v-else-if="item.type == 'AppleMusic'">
             <div class="item-lyric">
@@ -74,6 +74,14 @@
           </div>
         </div>
         <!-- v-for end -->
+        <div align="right">
+          <span>Date: </span>
+          <select v-model="selectedFile" @change="showFileContent(selectedFile)">
+            <option v-for="item in this.publishedMap.keys()" :value="item">
+              {{ item }}
+            </option>
+          </select>
+        </div>
       </div>
     </div>
   </div>
@@ -89,10 +97,22 @@
     data() {
       return {
         publishedItems: [],
+        publishedMap: {},
+        selectedFile: "June-2022"
+      }
+    },
+    methods: {
+      showFileContent(file) {
+        this.publishedItems = this.publishedMap.get(file);
       }
     },
     mounted() {
-      this.publishedItems = [].concat(June2022, May2022)
+      var dataMap = new Map();
+      dataMap.set('June-2022', June2022);
+      dataMap.set('May-2022', May2022);
+
+      this.publishedMap = dataMap;
+      this.publishedItems = dataMap.get(this.selectedFile);
     },
   }).mount('#published'); // bind with div whose id = "app"
 </script>
