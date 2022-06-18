@@ -1,5 +1,15 @@
 var June2022 = [
   {
+    "date": "2022/06/18",
+    "type": "AppleMusic",
+    "title": "陳奕迅 -《我甚麼都沒有》",
+    "lyric": [
+      "連夢裏也會覺得快樂難求",
+      "連淚光都光不過黑夜盡頭"
+    ],
+    "embedLink": "https://embed.music.apple.com/hk/album/%E6%88%91%E7%94%9A%E9%BA%BC%E9%83%BD%E6%B2%92%E6%9C%89/892745229?i=892745295&l=en"
+  },
+  {
     "date": "2022/06/15",
     "type": "AppleMusic",
     "title": "陳奕迅 -《黑暗中漫舞》",
