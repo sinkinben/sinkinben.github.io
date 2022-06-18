@@ -1,6 +1,18 @@
 var June2022 = [
   {
     "date": "2022/06/18",
+    "type": "NeteaseMusic",
+    "title": "《风吹鸡蛋壳》",
+    "lyric": [
+      "月已挂肩膊 天苍苍星落索",
+      "在我心中唱 还是昨日少年歌",
+      "暴雨猛风扑 当鸡蛋堪墙角",
+      "但在我心中唱 还是昨日少年歌"
+    ],
+    "embedLink": "https://music.163.com/outchain/player?id=29450573&type=2"
+  },
+  {
+    "date": "2022/06/18",
     "type": "AppleMusic",
     "title": "陳奕迅 -《我甚麼都沒有》",
     "lyric": [
@@ -40,7 +52,7 @@ var June2022 = [
   {
     "date": "2022/06/10",
     "title": "by sinkinben",
-    "type": "Article Cover",
+    "type": "Sentences",
     "context": [
       "I thought I struggled for the life,",
       "but actually I struggled for a lie."

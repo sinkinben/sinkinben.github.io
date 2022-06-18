@@ -13,7 +13,7 @@ var May2022 = [
   {
     "date": "2022/05/29",
     "title": "《星际穿越》",
-    "type": "Article Cover",
+    "type": "Sentences",
     "context": [
       "Do not go gentle into that good night, ",
       "Old age should burn and rave at close of day,",

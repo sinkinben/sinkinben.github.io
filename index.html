@@ -48,9 +48,9 @@
       <!-- Use vue-for to filled my published content -->
       <div id="published" class="inner main_mark">
         <!-- v-for to show the published list -->
-        <div v-for="item in this.publishedItems" lang="zh" class="item" v-bind:class="item.type">
+        <div v-for="item in this.publishedItems" lang="zh" class="item Article Cover">
           <!-- Show Article Cover and some text -->
-          <div v-if="item.type == 'Article Cover'" class="item-cover">
+          <div v-if="item.type == 'Sentences'" class="item-cover">
             <div class="item-cover_image">
               <div v-bind:style="{backgroundImage:'url(' + item.backgroundImage + ')'}"></div>
             </div>
@@ -69,6 +69,16 @@
             <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150"
               style="width:100%; max-width:700px;overflow:hidden;background:transparent;"
               sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+              :src="item.embedLink"></iframe>
+            <p class="item-date">committed @ {{ item.date }}</p>
+          </div>
+          <!-- Show NeteaseMusic and some lyric -->
+          <div v-else-if="item.type == 'NeteaseMusic'">
+            <div class="item-lyric">
+              <p v-for="text in item.lyric"> {{ text }} </p>
+              <p style="text-align: right;">{{ item.title }}</p>
+            </div>
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%"
               :src="item.embedLink"></iframe>
             <p class="item-date">committed @ {{ item.date }}</p>
           </div>
