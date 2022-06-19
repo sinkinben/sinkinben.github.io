@@ -1,5 +1,16 @@
 var June2022 = [
   {
+    "date": "2022/06/19",
+    "type": "AppleMusic",
+    "title": "容祖儿 -《爱一个上一课》",
+    "lyric": [
+      "谁是玩伴",
+      "谁是爱的幻觉",
+      "谁与我 能永远 留在梦中天国",
+    ],
+    "embedLink": "https://embed.music.apple.com/hk/album/%E6%84%9B%E4%B8%80%E5%80%8B%E4%B8%8A%E4%B8%80%E8%AA%B2-live/902881861?i=902883966&l=en"
+  },
+  {
     "date": "2022/06/18",
     "type": "NeteaseMusic",
     "title": "《风吹鸡蛋壳》",
