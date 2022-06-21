@@ -1,5 +1,12 @@
 var June2022 = [
   {
+    "date": "2022/06/21",
+    "type": "NeteaseMusic",
+    "title": "David Hoffman - Minuet in G",
+    "lyric": [],
+    "embedLink": "https://music.163.com/outchain/player?type=2&id=1296886"
+  },
+  {
     "date": "2022/06/19",
     "type": "AppleMusic",
     "title": "容祖儿 -《爱一个上一课》",
