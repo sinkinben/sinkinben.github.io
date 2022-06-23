@@ -1,5 +1,21 @@
 var June2022 = [
   {
+    "date": "2022/06/23",
+    "type": "AppleMusic",
+    "title": "陳奕迅 -《反高潮》",
+    "lyric": [
+      "這秒鐘 十分感動",
+      "接下來 只可以更加激進",
+      "如若要平庸 十一分的平庸",
+      "微笑大笑後必須發瘋",
+      "動不動 就很感動",
+      "縱壞時 生死也懶得起哄",
+      "娛樂再無窮 但本質都雷同",
+      "矛盾漸進就已是沉淪"
+    ],
+    "embedLink": "https://embed.music.apple.com/hk/album/%E5%8F%8D%E9%AB%98%E6%BD%AE-live/1442966677?i=1442967317&l=en"
+  },
+  {
     "date": "2022/06/21",
     "type": "NeteaseMusic",
     "title": "David Hoffman - Minuet in G",
