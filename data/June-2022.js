@@ -1,5 +1,16 @@
 var June2022 = [
   {
+    "date": "2022/06/24",
+    "type": "AppleMusic",
+    "title": "陳奕迅 -《我的快樂時代》",
+    "lyric": [
+      "唯求在某次盡情歡樂過",
+      "時間夠了",
+      "時針偏偏 出了錯"
+    ],
+    "embedLink": "https://embed.music.apple.com/hk/album/%E6%88%91%E7%9A%84%E5%BF%AB%E6%A8%82%E6%99%82%E4%BB%A3-live/1442966677?i=1442967186&l=en"
+  },
+  {
     "date": "2022/06/23",
     "type": "AppleMusic",
     "title": "陳奕迅 -《反高潮》",
