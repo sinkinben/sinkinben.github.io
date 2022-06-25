@@ -1,5 +1,15 @@
 var June2022 = [
   {
+    "date": "2022/06/25",
+    "type": "AppleMusic",
+    "title": "",
+    "lyric": [
+      "Please don't be fear,",
+      "I will be always with you."
+    ],
+    "embedLink": "https://embed.music.apple.com/cn/album/always-with-me/1315015804?i=1315016055&l=en"
+  },
+  {
     "date": "2022/06/24",
     "type": "AppleMusic",
     "title": "陳奕迅 -《我的快樂時代》",
