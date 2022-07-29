@@ -1,5 +1,19 @@
 var July2022 = [
   {
+    "date": "2022/07/29",
+    "type": "AppleMusic",
+    "title": "陈辉阳 -《日与夜》",
+    "lyric": [
+      "当你我错过今天",
+      "人潮将彼此盖掩",
+      "仍期望有生一天",
+      "跟你有缘吻一遍",
+      "与你约错终点",
+      "再邂逅是哪天"
+    ],
+    "embedLink": "https://embed.music.apple.com/hk/album/%E6%97%A5%E8%88%87%E5%A4%9C-%E9%BA%A5%E8%8A%B1%E8%87%A3%E7%89%88/1198129998?i=1198130197&l=en"
+  },
+  {
     "date": "2022/07/09",
     "type": "AppleMusic",
     "title": "王菲 -《開到荼蘼》",
