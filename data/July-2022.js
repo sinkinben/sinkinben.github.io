@@ -1,5 +1,16 @@
 var July2022 = [
   {
+    "date": "2022/07/30",
+    "type": "AppleMusic",
+    "title": "Chan Fai Young x Women's Choir -《絕》",
+    "lyric": [
+      "讓痛苦",
+      "輪迴千次",
+      "彰顯那快樂有盡時"
+    ],
+    "embedLink": "https://embed.music.apple.com/hk/album/%E7%B5%95-%E4%BC%8A%E9%A4%A8%E7%8F%BE%E5%A0%B4%E7%89%88-live/1621840374?i=1621840375&l=en"
+  },
+  {
     "date": "2022/07/29",
     "type": "AppleMusic",
     "title": "陈辉阳 -《日与夜》",
