@@ -1,5 +1,17 @@
 var July2022 = [
   {
+    "date": "2022/07/31",
+    "type": "AppleMusic",
+    "title": "Chan Fai Young x Women's Choir -《火鳥》",
+    "lyric": [
+      "從頭細數命運由甚麼鑄成",
+      "心境每秒在註釋生命",
+      "密雲外還有清空",
+      "眼淚哪可遮掩眼睛"
+    ],
+    "embedLink": "https://embed.music.apple.com/hk/album/%E7%81%AB%E9%B3%A5/1491887280?i=1491887281&l=en"
+  },
+  {
     "date": "2022/07/30",
     "type": "AppleMusic",
     "title": "Chan Fai Young x Women's Choir -《絕》",
