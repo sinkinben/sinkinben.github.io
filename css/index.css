@@ -13,7 +13,12 @@ h1 {
 }
 
 a {
-    background-color: transparent
+    background-color: transparent;
+    text-decoration-line: none;
+    color: #0366d6;
+}
+.side_links a:hover {
+    border-bottom: 1px dashed #0366d6;
 }
 
 :root {
@@ -115,9 +120,6 @@ body {
     font: 16px/1.42 var(--en-sans),var(--cjk-sans),sans-serif
 }
 
-a {
-    color: #000000fa
-}
 
 .body {
     display: flex;
@@ -263,6 +265,10 @@ a {
         border-bottom: 1px solid rgba(0,0,0,.04);
         text-align: center;
         padding: 0
+    }
+
+    .side .inner {
+        padding-bottom: 0px !important;
     }
 
     .side_links {
