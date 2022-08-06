@@ -101,9 +101,11 @@
 </body>
 
 <!-- Import datasource -->
+<script src="data/August-2022.js"></script>
+<script src="data/July-2022.js"></script>
 <script src="data/June-2022.js"></script>
 <script src="data/May-2022.js"></script>
-<script src="data/July-2022.js"></script>
+
 <!-- Create and init a Vue app -->
 <script>
   const { createApp } = Vue;
@@ -112,7 +114,7 @@
       return {
         publishedItems: [],
         publishedMap: {},
-        selectedFile: "July-2022"
+        selectedFile: "August-2022"
       }
     },
     methods: {
@@ -122,6 +124,7 @@
     },
     mounted() {
       var dataMap = new Map();
+      dataMap.set('August-2022', August2022)
       dataMap.set('July-2022', July2022);
       dataMap.set('June-2022', June2022);
       dataMap.set('May-2022', May2022);
