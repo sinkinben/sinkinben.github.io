@@ -34,7 +34,8 @@
         </a>
         <h1 class="side_title"><a class="h-card" rel="me" href="https://sinkinben.github.io">sinkinben</a>
         </h1>
-        <h2 class="side_subtitle">To share my moments.</h2>
+        <!-- <h2 class="side_subtitle">To share my moments.</h2> -->
+        <p class="side_subtitle">Tomorrow is another day.</p>
 
         <ul class="side_links">
           <!-- Put some social links here -->
@@ -101,10 +102,8 @@
 </body>
 
 <!-- Import datasource -->
-<script src="data/August-2022.js"></script>
-<script src="data/July-2022.js"></script>
-<script src="data/June-2022.js"></script>
-<script src="data/May-2022.js"></script>
+<script src="data/2022.js"></script>
+<script src="data/June-2023.js"></script>
 
 <!-- Create and init a Vue app -->
 <script>
@@ -114,7 +113,7 @@
       return {
         publishedItems: [],
         publishedMap: {},
-        selectedFile: "August-2022"
+        selectedFile: ""
       }
     },
     methods: {
@@ -124,6 +123,10 @@
     },
     mounted() {
       var dataMap = new Map();
+
+      this.selectedFile = 'June-2023';
+      dataMap.set('June-2023', June2023);
+
       dataMap.set('August-2022', August2022)
       dataMap.set('July-2022', July2022);
       dataMap.set('June-2022', June2022);
