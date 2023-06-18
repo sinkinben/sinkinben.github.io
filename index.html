@@ -22,7 +22,7 @@
   </style>
   <link rel="stylesheet" href="css/index.css">
   <!-- Import Vue-->
-  <script src="https://unpkg.com/vue@3.2.33/dist/vue.global.prod.js"></script>
+  <script src="https://unpkg.com/vue@3.3.4/dist/vue.global.prod.js"></script>
 </head>
 
 <body>
@@ -90,9 +90,9 @@
         <!-- v-for end -->
         <div align="right">
           <span>Date: </span>
-          <select v-model="selectedFile" @change="showFileContent(selectedFile)">
-            <option v-for="item in this.publishedMap.keys()" :value="item">
-              {{ item }}
+          <select v-model="selectedItem" @change="displayItemContent(selectedItem)">
+            <option v-for="date in this.publishedMap.keys()" :value="date">
+              {{ date }}
             </option>
           </select>
         </div>
@@ -113,18 +113,18 @@
       return {
         publishedItems: [],
         publishedMap: {},
-        selectedFile: ""
+        selectedItem: ""
       }
     },
     methods: {
-      showFileContent(file) {
+      displayItemContent(file) {
         this.publishedItems = this.publishedMap.get(file);
       }
     },
     mounted() {
       var dataMap = new Map();
 
-      this.selectedFile = 'June-2023';
+      this.selectedItem = 'June-2023';
       dataMap.set('June-2023', June2023);
 
       dataMap.set('August-2022', August2022)
@@ -133,7 +133,7 @@
       dataMap.set('May-2022', May2022);
 
       this.publishedMap = dataMap;
-      this.publishedItems = dataMap.get(this.selectedFile);
+      this.publishedItems = dataMap.get(this.selectedItem);
     },
   }).mount('#published'); // bind with div whose id = "published"
 </script>
