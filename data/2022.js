@@ -191,7 +191,7 @@ var June2022 = [
   },
   {
     "date": "2022/06/10",
-    "title": "by sinkinben",
+    "title": "",
     "type": "Sentences",
     "context": [
       "I thought I struggled for the life,",

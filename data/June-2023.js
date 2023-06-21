@@ -1,5 +1,17 @@
 var June2023 = [
     {
+        "date": "2023/06/20",
+        "title": "《告别校园时》",
+        "type": "Sentences",
+        "context": [
+            "一天一天的我在期待放学",
+            "一转眼却要告别校园",
+            "一张一张的快乐同学笑脸",
+            "粉笔似的消失不再遇见",
+        ],
+        "backgroundImage": "images/shanghai-bund-sjtu.jpg"
+    },
+    {
         "date": "2023/06/18",
         "type": "AppleMusic",
         "title": "陈奕迅 -《夕阳无限好》",
