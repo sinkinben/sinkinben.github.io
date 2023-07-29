@@ -1,3 +1,18 @@
+var July2023 = [
+    {
+        "date": "2023/07/29",
+        "type": "AppleMusic",
+        "title": "陈奕迅 -《一个旅人》",
+        "lyric": [
+            "这次的单身旅程 仅有的孤身只影",
+            "迎着凄风冷雨看风景",
+            "把记忆的酸与甜 挤进每一封信件",
+            "离愁没有厌 遗留在每咖啡店"
+        ],
+        "embedLink": "https://embed.music.apple.com/cn/album/%E4%B8%80%E5%80%8B%E6%97%85%E4%BA%BA/1443774258?i=1443774279&l=en-GB"
+    },
+];
+
 var June2023 = [
     {
         "date": "2023/06/20",
