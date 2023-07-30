@@ -1,5 +1,14 @@
 var July2023 = [
     {
+        "date": "2023/07/30",
+        "type": "NeteaseMusic",
+        "title": "Schnappi - Joy Gruttmann",
+        "lyric": [
+            "Schnappi, Schnappi, Schnappi ~"
+        ],
+        "embedLink": "https://music.163.com/outchain/player?type=2&id=2866921"
+    },
+    {
         "date": "2023/07/29",
         "type": "AppleMusic",
         "title": "陈奕迅 -《一个旅人》",
