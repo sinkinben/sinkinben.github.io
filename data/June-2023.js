@@ -1,4 +1,13 @@
-var July2023 = [
+var Recently = [
+    {
+        "date": "2023/09/22",
+        "type": "AppleMusic",
+        "title": "",
+        "lyric": [
+            "\"Asuka, Strikes!\""
+        ],
+        "embedLink": "https://embed.music.apple.com/cn/album/zankoku-na-tenshi-no-thesis/1549545977?i=1549545978"
+    },
     {
         "date": "2023/07/30",
         "type": "NeteaseMusic",
