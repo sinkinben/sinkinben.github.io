@@ -1,5 +1,14 @@
 var Recently = [
     {
+        "date": "2023/12/08",
+        "type": "AppleMusic",
+        "title": "Faye Wong -《百年孤寂》",
+        "lyric": [
+            "一百年后，没有你，也没有我。"
+        ],
+        "embedLink": "https://embed.music.apple.com/cn/album/%E7%99%BE%E5%B9%B4%E5%AD%A4%E5%AF%82/966481932?i=966481938&",
+    },
+    {
         "date": "2023/09/22",
         "type": "AppleMusic",
         "title": "",
