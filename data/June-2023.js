@@ -1,5 +1,14 @@
 var Recently = [
     {
+        "date": "2024/02/12",
+        "type": "AppleMusic",
+        "title": "Hikaru Utada - Beautiful World",
+        "lyric": [
+            "It's only love."
+        ],
+        "embedLink": "https://embed.music.apple.com/cn/album/beautiful-world/1445033366?i=1445033374&l=en-GB"
+    },
+    {
         "date": "2023/12/08",
         "type": "AppleMusic",
         "title": "Faye Wong -《百年孤寂》",
