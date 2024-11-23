@@ -1,5 +1,21 @@
 var Recently = [
     {
+        "date": "2024/11/23",
+        "type": "AppleMusic",
+        "title": "Ayumi Hamasaki - Love Song",
+        "lyric": [
+            "守りたいものがありますか",
+            "有想要守护的人吗",
+            "守り抜けるか不安ですか",
+            "会害怕无法守护到底吗",
+            "傷ついてボロボロの",
+            "正因为遍体鳞伤",
+            "あなただから 強さ知ってる",
+            "这样你才能学会坚强",
+        ],
+        "embedLink": "https://embed.music.apple.com/cn/album/love-song/1144895713?i=1144895714&l=en-GB"
+    },
+    {
         "date": "2024/10/13",
         "type": "AppleMusic",
         "title": "中岛美嘉 -《曾经我也想过一了百了》",
