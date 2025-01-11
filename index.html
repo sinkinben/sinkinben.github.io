@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zh" class="light-theme">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5, viewport-fit=cover">
+  <link rel="icon" type="image/png" href="images/mario.gif">
+  <title>sinkinben</title>
+  <style>
+    :root {
+      --t-rc-primary: 208, 205, 194;
+      --primary-color-hex: #D0CDC2;
+      --primary-color-rgb: 208, 205, 194;
+      --t-on-primary: var(--t-rc-dark);
+      --primary-text-rgb: 0, 0, 0;
+      --t-rc-secondary: 0, 0, 0;
+      --secondary-color-hex: #000;
+      --secondary-color-rgb: 0, 0, 0;
+      --t-on-secondary: var(--t-rc-light);
+      --secondary-text-rgb: 255, 255, 255
+    }
+  </style>
+  <link rel="stylesheet" href="css/index.css">
+  <!-- Import Vue-->
+  <script src="https://unpkg.com/vue@3.3.4/dist/vue.global.prod.js"></script>
+</head>
+
+<body>
+  <div class="body">
+    <aside class="side">
+      <div class="inner">
+        <a class="side_logo" href="http://sinkinben.cnblogs.com">
+          <img src="images/shinji_compressed.png">
+        </a>
+        <h1 class="side_title"><a class="h-card" rel="me" href="https://sinkinben.github.io">sinkinben</a>
+        </h1>
+        <!-- <h2 class="side_subtitle">To share my moments.</h2> -->
+        <p class="side_subtitle">Tomorrow is another day.</p>
+
+        <ul class="side_links">
+          <!-- Put some social links here -->
+          <li><a href="index.html">🏠 Home</a></li>
+          <!-- <li><a href="blog/index.html">📖 Blog</a></li> -->
+          <li><a href="mailto:sinkinben@outlook.com">📧 Email</a></li>
+          <li><a href="/2048">🎮 2048</a></li>
+        </ul>
+        <nav class="side_social">
+          <!-- Put some social links here -->
+        </nav>
+      </div>
+    </aside>
+    <div class="main">
+      <!-- Use vue-for to filled my published content -->
+      <div id="published" class="inner main_mark">
+        <!-- v-for to show the published list -->
+        <div v-for="item in this.publishedItems" lang="zh" class="item Article Cover">
+          <!-- Show Article Cover and some text -->
+          <div v-if="item.type == 'Sentences'" class="item-cover">
+            <div class="item-cover_image">
+              <div v-bind:style="{backgroundImage:'url(' + item.backgroundImage + ')'}"></div>
+            </div>
+            <div class="item-cover_inner">
+              <p class="item-context" v-for="text in item.context">{{ text }}</p>
+              <p style="text-align: right;">{{ item.title }}</p>
+              <p class="item-date">committed @ {{ item.date }}</p>
+            </div>
+          </div>
+          <!-- Show AppleMusic and some lyric -->
+          <div v-else-if="item.type == 'AppleMusic'">
+            <div class="item-lyric">
+              <p v-for="text in item.lyric"> {{ text }} </p>
+              <p style="text-align: right;">{{ item.title }}</p>
+            </div>
+            <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150"
+              style="width:100%; max-width:700px;overflow:hidden;background:transparent;"
+              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+              :src="item.embedLink"></iframe>
+            <p class="item-date">committed @ {{ item.date }}</p>
+          </div>
+          <!-- Show NeteaseMusic and some lyric -->
+          <div v-else-if="item.type == 'NeteaseMusic'">
+            <div class="item-lyric">
+              <p v-for="text in item.lyric"> {{ text }} </p>
+              <p style="text-align: right;">{{ item.title }}</p>
+            </div>
+            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%"
+              :src="item.embedLink"></iframe>
+            <p class="item-date">committed @ {{ item.date }}</p>
+          </div>
+        </div>
+        <!-- v-for end -->
+        <div align="right">
+          <span>Date: </span>
+          <select v-model="selectedItem" @change="displayItemContent(selectedItem)">
+            <option v-for="date in this.publishedMap.keys()" :value="date">
+              {{ date }}
+            </option>
+          </select>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<!-- Import datasource -->
+<script src="data/2022.js"></script>
+<script src="data/2023.js"></script>
+<script src="data/2024.js"></script>
+
+<!-- Create and init a Vue app -->
+<script>
+  const { createApp } = Vue;
+  createApp({
+    data() {
+      return {
+        publishedItems: [],
+        publishedMap: {},
+        selectedItem: ""
+      }
+    },
+    methods: {
+      displayItemContent(file) {
+        this.publishedItems = this.publishedMap.get(file);
+      }
+    },
+    mounted() {
+      var dataMap = new Map();
+
+      this.selectedItem = 'Recently';
+      dataMap.set('Recently', Recently);
+      dataMap.set('2023', Data2023);
+
+      dataMap.set('August-2022', August2022)
+      dataMap.set('July-2022', July2022);
+      dataMap.set('June-2022', June2022);
+      dataMap.set('May-2022', May2022);
+
+      this.publishedMap = dataMap;
+      this.publishedItems = dataMap.get(this.selectedItem);
+    },
+  }).mount('#published'); // bind with div whose id = "published"
+</script>
+
+</html>
