@@ -63,7 +63,7 @@
             <div class="item-cover_inner">
               <p class="item-context" v-for="text in item.context">{{ text }}</p>
               <p style="text-align: right;">{{ item.title }}</p>
-              <p class="item-date">committed @ {{ item.date }}</p>
+              <p class="item-date">Published @ {{ item.date }}</p>
             </div>
           </div>
           <!-- Show AppleMusic and some lyric -->
@@ -76,7 +76,7 @@
               style="width:100%; max-width:700px;overflow:hidden;background:transparent;"
               sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
               :src="item.embedLink"></iframe>
-            <p class="item-date">committed @ {{ item.date }}</p>
+            <p class="item-date">Published @ {{ item.date }}</p>
           </div>
           <!-- Show NeteaseMusic and some lyric -->
           <div v-else-if="item.type == 'NeteaseMusic'">
@@ -86,7 +86,7 @@
             </div>
             <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%"
               :src="item.embedLink"></iframe>
-            <p class="item-date">committed @ {{ item.date }}</p>
+            <p class="item-date">Published @ {{ item.date }}</p>
           </div>
         </div>
         <!-- v-for end -->
