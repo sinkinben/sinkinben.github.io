@@ -1,13 +1,4 @@
-var Recently = [
-    {
-        "date": "2025/03/08",
-        "type": "AppleMusic",
-        "title": "Wednesday Campanella - めぐる季節",
-        "lyric": [
-            "Peaceful."
-        ],
-        "embedLink": "https://embed.music.apple.com/cn/album/%E3%82%81%E3%81%90%E3%82%8B%E5%AD%A3%E7%AF%80/1532436026?i=1532436031&l=en-GB"
-    },
+var Data2024 = [
     {
         "date": "2024/11/23",
         "type": "AppleMusic",

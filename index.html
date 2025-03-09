@@ -63,7 +63,7 @@
             <div class="item-cover_inner">
               <p class="item-context" v-for="text in item.context">{{ text }}</p>
               <p style="text-align: right;">{{ item.title }}</p>
-              <p class="item-date">Published @ {{ item.date }}</p>
+              <p class="item-date">Posted @ {{ item.date }}</p>
             </div>
           </div>
           <!-- Show AppleMusic and some lyric -->
@@ -76,7 +76,7 @@
               style="width:100%; max-width:700px;overflow:hidden;background:transparent;"
               sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
               :src="item.embedLink"></iframe>
-            <p class="item-date">Published @ {{ item.date }}</p>
+            <p class="item-date">Posted @ {{ item.date }}</p>
           </div>
           <!-- Show NeteaseMusic and some lyric -->
           <div v-else-if="item.type == 'NeteaseMusic'">
@@ -86,7 +86,7 @@
             </div>
             <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%"
               :src="item.embedLink"></iframe>
-            <p class="item-date">Published @ {{ item.date }}</p>
+            <p class="item-date">Posted @ {{ item.date }}</p>
           </div>
         </div>
         <!-- v-for end -->
@@ -107,6 +107,7 @@
 <script src="data/2022.js"></script>
 <script src="data/2023.js"></script>
 <script src="data/2024.js"></script>
+<script src="data/2025.js"></script>
 
 <!-- Create and init a Vue app -->
 <script>
@@ -129,12 +130,13 @@
 
       this.selectedItem = 'Recently';
       dataMap.set('Recently', Recently);
+      dataMap.set('2024', Data2024);
       dataMap.set('2023', Data2023);
 
-      dataMap.set('August-2022', August2022)
-      dataMap.set('July-2022', July2022);
-      dataMap.set('June-2022', June2022);
-      dataMap.set('May-2022', May2022);
+      dataMap.set('August, 2022', August2022)
+      dataMap.set('July, 2022', July2022);
+      dataMap.set('June, 2022', June2022);
+      dataMap.set('May, 2022', May2022);
 
       this.publishedMap = dataMap;
       this.publishedItems = dataMap.get(this.selectedItem);
