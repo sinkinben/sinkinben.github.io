@@ -1,5 +1,17 @@
 var Recently = [
     {
+        "date": "2025/03/15",
+        "type": "AppleMusic",
+        "title": "手嶌葵 - 旗",
+        "lyric": [
+            "朝日をあびた 丘の上の",
+            "木立にうもれた 古い家",
+            "朝吹く風に 想いたくし",
+            "今日もまた君は 旗をあげる",
+        ],
+        "embedLink": "https://embed.music.apple.com/cn/album/%E6%97%97/1609546301?i=1609546305&l=en-GB"
+    },
+    {
         "date": "2025/03/09",
         "type": "AppleMusic",
         "title": "手嶌葵 - さよならの夏～コクリコ坂から～",
