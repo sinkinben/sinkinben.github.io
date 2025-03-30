@@ -17,6 +17,7 @@ a {
     text-decoration-line: none;
     color: #0366d6;
 }
+
 .side_links a:hover {
     border-bottom: 1px dashed #0366d6;
 }
@@ -77,11 +78,11 @@ img {
 
 
 .item {
-    padding: 20px 0 40px
+    padding: 20px 0 20px 0;
 }
 
 .item+.item {
-    border-top: 2px dashed rgba(0,0,0,.04);
+    border-top: 2px dashed rgba(0, 0, 0, .04);
 }
 
 .item:after {
@@ -117,7 +118,7 @@ img {
 
 body {
     color: #000000db;
-    font: 16px/1.42 var(--en-sans),var(--cjk-sans),sans-serif
+    font: 16px/1.42 var(--en-sans), var(--cjk-sans), sans-serif
 }
 
 
@@ -249,7 +250,7 @@ body {
 }
 
 .item-date {
-    text-align: right; 
+    text-align: right;
     font-size: 12px;
 }
 
@@ -257,12 +258,12 @@ body {
 
 @media(max-width: 800px) {
     .body {
-        display:block
+        display: block
     }
 
     .side {
         width: 100%;
-        border-bottom: 1px solid rgba(0,0,0,.04);
+        border-bottom: 1px solid rgba(0, 0, 0, .04);
         text-align: center;
         padding: 0
     }

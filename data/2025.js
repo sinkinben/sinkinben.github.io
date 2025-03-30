@@ -1,5 +1,19 @@
 var Recently = [
     {
+        "date": "2025/03/30",
+        "type": "Spotify",
+        "title": "Arianne - Komm, süsser Tod",
+        "lyric": [
+            "I know, I know I've let you down",
+            "I've been a fool to myself",
+            "I thought that I could live for no one else",
+            "But now, through all the hurt and pain",
+            "It's time for me to respect",
+            "The ones you love mean more than anything",
+        ],
+        "embedLink": "https://open.spotify.com/embed/track/3oe34QK1vaLFWgUWeIN9t3?si=8ea8c7e2668a4271"
+    },
+    {
         "date": "2025/03/15",
         "type": "AppleMusic",
         "title": "手嶌葵 - 旗",

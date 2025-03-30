@@ -66,26 +66,28 @@
               <p class="item-date">Posted @ {{ item.date }}</p>
             </div>
           </div>
-          <!-- Show AppleMusic and some lyric -->
-          <div v-else-if="item.type == 'AppleMusic'">
+          <div v-else>
             <div class="item-lyric">
               <p v-for="text in item.lyric"> {{ text }} </p>
               <p style="text-align: right;">{{ item.title }}</p>
             </div>
-            <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150"
-              style="width:100%; max-width:700px;overflow:hidden;background:transparent;"
-              sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
-              :src="item.embedLink"></iframe>
-            <p class="item-date">Posted @ {{ item.date }}</p>
-          </div>
-          <!-- Show NeteaseMusic and some lyric -->
-          <div v-else-if="item.type == 'NeteaseMusic'">
-            <div class="item-lyric">
-              <p v-for="text in item.lyric"> {{ text }} </p>
-              <p style="text-align: right;">{{ item.title }}</p>
+            <!-- Show AppleMusic and some lyric -->
+            <div v-if="item.type == 'AppleMusic'">
+              <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="150"
+                style="width:100%; max-width:700px;overflow:hidden;background:transparent;"
+                sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                :src="item.embedLink"></iframe>
             </div>
-            <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%"
-              :src="item.embedLink"></iframe>
+            <!-- Show NeteaseMusic and some lyric -->
+            <div v-else-if="item.type == 'NeteaseMusic'">
+              <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%"
+                :src="item.embedLink"></iframe>
+            </div>
+            <div v-else-if="item.type == 'Spotify'">
+              <iframe style="border-radius:12px" :src="item.embedLink" width="100%" height="152" frameBorder="0"
+                allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                loading="lazy"></iframe>
+            </div>
             <p class="item-date">Posted @ {{ item.date }}</p>
           </div>
         </div>
