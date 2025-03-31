@@ -246,3 +246,5 @@ var May2022 = [
     "embedLink": "https://embed.music.apple.com/hk/album/%E5%B9%B4%E5%BA%A6%E4%B9%8B%E6%AD%8C/1443335510?i=1443335836&l=en"
   }
 ];
+
+var Data2022 = [].concat(August2022, July2022, June2022, May2022);

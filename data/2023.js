@@ -11,10 +11,18 @@ var Data2023 = [
     {
         "date": "2023/09/22",
         "type": "AppleMusic",
-        "title": "",
+        "title": "高桥洋子 -《残酷天使的行动纲领》",
         "lyric": [
-            "\"Asuka, Strikes!\""
+            "苍い风がいま",
+            "迎面吹来苍蓝的风",
+            "胸のドアを叩いても",
+            "轻轻地扣击着心门",
+            "私だけをただ见つめて",
+            "凝视着我的人是",
+            "微笑んでるあなた",
+            "微笑着的你"
         ],
+        "tag": "eva",
         "embedLink": "https://embed.music.apple.com/cn/album/zankoku-na-tenshi-no-thesis/1549545977?i=1549545978"
     },
     {

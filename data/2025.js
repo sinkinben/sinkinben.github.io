@@ -1,5 +1,22 @@
 var Recently = [
     {
+        "date": "2025/03/31",
+        "type": "Spotify",
+        "title": "林原惠美 - 翼をください",
+        "lyric": [
+            "いま私の愿いごとが",
+            "我的愿望啊",
+            "かなうならば 翼がほしい",
+            "若是能实现 那么请给我一双翅膀",
+            "この背中に 鸟のように",
+            "就像鸟儿一般 请在这背上",
+            "白い翼つけてください",
+            "装上纯白的翅膀吧",
+        ],
+        "tag": "eva",
+        "embedLink": "https://open.spotify.com/embed/track/2CYFFxqdK9wFcpUmSc2g82?si=a8923fc0496c4e4f",
+    },
+    {
         "date": "2025/03/30",
         "type": "Spotify",
         "title": "Arianne - Komm, süsser Tod",
@@ -11,6 +28,7 @@ var Recently = [
             "It's time for me to respect",
             "The ones you love mean more than anything",
         ],
+        "tag": "eva",
         "embedLink": "https://open.spotify.com/embed/track/3oe34QK1vaLFWgUWeIN9t3?si=8ea8c7e2668a4271"
     },
     {

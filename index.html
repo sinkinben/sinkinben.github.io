@@ -118,7 +118,7 @@
     data() {
       return {
         publishedItems: [],
-        publishedMap: {},
+        publishedMap: new Map(),
         selectedItem: ""
       }
     },
@@ -134,11 +134,10 @@
       dataMap.set('Recently', Recently);
       dataMap.set('2024', Data2024);
       dataMap.set('2023', Data2023);
+      dataMap.set('2022', Data2022);
 
-      dataMap.set('August, 2022', August2022)
-      dataMap.set('July, 2022', July2022);
-      dataMap.set('June, 2022', June2022);
-      dataMap.set('May, 2022', May2022);
+      var evaCollections = Array.from(dataMap.values()).flat().filter(item => item?.tag == "eva");
+      dataMap.set('Eva Collections', evaCollections);
 
       this.publishedMap = dataMap;
       this.publishedItems = dataMap.get(this.selectedItem);
