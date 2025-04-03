@@ -1,5 +1,18 @@
 var Recently = [
     {
+        "date": "2025/04/03",
+        "type": "NeteaseMusic",
+        "title": "容祖儿 - 小草",
+        "lyric": [
+            "凡事尽力坚持",
+            "至少总算有在试",
+            "才学会",
+            "放松不怕遇挫败",
+            "几多次",
+        ],
+        "embedLink": "https://music.163.com/outchain/player?type=2&id=36199875&auto=0",
+    },
+    {
         "date": "2025/03/31",
         "type": "Spotify",
         "title": "林原惠美 - 翼をください",
