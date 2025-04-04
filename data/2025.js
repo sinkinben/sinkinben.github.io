@@ -1,5 +1,25 @@
 var Recently = [
     {
+        "date": "2025/04/04",
+        "type": "AppleMusic",
+        "title": "手嶌葵 - 明日への手纸",
+        "lyric": [
+            "元気でいますか",
+            "最近还好吗",
+            "大事な人はできましたか",
+            "可有找到你珍惜的人",
+            "いつか梦は叶いますか",
+            "梦想会成真吗",
+            "この道の先で",
+            "在这条路的尽头",
+            "覚えていますか",
+            "你还记得吗",
+            "揺れる麦の穂あの夕映え",
+            "麦穗摇曳的那片晚霞",
+        ],
+        "embedLink": "https://embed.music.apple.com/cn/album/asu-e-no-tegami-drama-version/1078169316?i=1078169317"
+    },
+    {
         "date": "2025/04/03",
         "type": "NeteaseMusic",
         "title": "容祖儿 - 小草",
