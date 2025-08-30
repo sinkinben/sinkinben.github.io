@@ -1,5 +1,17 @@
 var Recently = [
     {
+        "date": "2025/08/31",
+        "type": "AppleMusic",
+        "title": "吴雨霏 - 二十世纪少年",
+        "lyric": [
+            "如果 明天前殒石降临",
+            "明知 逃不掉 注定丧生",
+            "世界破陷 天空晦暗",
+            "我最期望谁来慰问",
+        ],
+        "embedLink": "https://embed.music.apple.com/cn/album/%E4%BA%8C%E5%8D%81%E4%B8%96%E7%BA%AA%E5%B0%91%E5%B9%B4/1062485511?i=1062485699&l=en-GB"
+    },
+    {
         "date": "2025/04/04",
         "type": "AppleMusic",
         "title": "手嶌葵 - 明日への手纸",
