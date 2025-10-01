@@ -1,5 +1,22 @@
 var Recently = [
     {
+        "date": "2025/10/01",
+        "type": "AppleMusic",
+        "title": "Hikaru Utada - Beautiful World",
+        "lyric": [
+            "もしも願い一つだけ",
+            "如果只有一个愿望",
+            "叶うなら",
+            "可以实现的话",
+            "君の側で眠らせて",
+            "请让我在你的身旁入睡",
+            "どんな場所でもいいよ",
+            "无论在哪里都好",
+        ],
+        "tag": "eva",
+        "embedLink": "https://embed.music.apple.com/cn/album/beautiful-world-planitb-acoustica-mix/1445054278?i=1445054282"
+    },
+    {
         "date": "2025/08/31",
         "type": "AppleMusic",
         "title": "吴雨霏 - 二十世纪少年",
