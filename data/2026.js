@@ -1,5 +1,17 @@
 var Recently = [
     {
+        "date": "2026/03/29",
+        "type": "AppleMusic",
+        "title": "囍帖街 - Kay Tse",
+        "lyric": [
+            "好景不会每日常在",
+            "天梯不可只往上爬",
+            "爱的人没有一生一世吗",
+            "大概不需要害怕",
+        ],
+        "embedLink": "https://embed.music.apple.com/cn/album/%E5%9B%8D%E5%B8%96%E8%A1%97/1443338132?i=1443338328"
+    },
+    {
         "date": "2026/02/14",
         "type": "Spotify",
         "title": "首都 - 羅大佑",
