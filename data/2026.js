@@ -1,5 +1,17 @@
 var Recently = [
     {
+        "date": "2026/03/30",
+        "type": "AppleMusic",
+        "title": "生命有价 - Lil' Ashes",
+        "lyric": [
+            "愿你知生命实在亦是有些意外",
+            "不用徬徨迷途只须紧记",
+            "它有无穷色彩　它有无尽的爱",
+            "愿凭著自信垮过障碍赛",
+        ],
+        "embedLink": "https://embed.music.apple.com/cn/album/%E7%94%9F%E5%91%BD%E6%9C%89%E4%BB%B7/1401319694?i=1401319709"
+    },
+    {
         "date": "2026/03/29",
         "type": "AppleMusic",
         "title": "囍帖街 - Kay Tse",
