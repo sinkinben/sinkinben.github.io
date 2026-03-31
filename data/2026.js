@@ -1,5 +1,21 @@
 var Recently = [
     {
+        "date": "2026/03/31",
+        "type": "AppleMusic",
+        "title": "償還 - Faye Wong",
+        "lyric": [
+            "有時候 有時候",
+            "我會相信一切有盡頭",
+            "相聚離開都有時候",
+            "沒有什麼會永垂不朽",
+            "可是我有時候",
+            "寧願選擇留戀不放手",
+            "等到風景都看透",
+            "也許你會陪我看細水長流",
+        ],
+        "embedLink": "https://embed.music.apple.com/hk/album/%E5%81%BF%E8%BF%98-live/966486703?i=966486711"
+    },
+    {
         "date": "2026/03/30",
         "type": "AppleMusic",
         "title": "生命有价 - Lil' Ashes",
