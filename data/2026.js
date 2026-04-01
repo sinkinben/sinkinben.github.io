@@ -1,5 +1,21 @@
 var Recently = [
     {
+        "date": "2026/04/01",
+        "type": "AppleMusic",
+        "title": "弥足珍贵 - 洪卓立",
+        "lyric": [
+            "泥车驶过 不经意拆去了旧铺",
+            "在社会争过 身体却染了病痛",
+            "谁共我 青春的走过",
+            "然后岁月过后再没接触",
+            "旧日的一切 别问几多经已浪费",
+            "弥足的珍贵 只想谢谢 把你记低",
+            "如果一出世 就像注定一世浪费",
+            "我即使喊 不失礼",
+        ],
+        "embedLink": "https://embed.music.apple.com/cn/album/%E5%BC%A5%E8%B6%B3%E7%8F%8D%E8%B4%B5/667400277?i=667400396"
+    },
+    {
         "date": "2026/03/31",
         "type": "AppleMusic",
         "title": "償還 - Faye Wong",
