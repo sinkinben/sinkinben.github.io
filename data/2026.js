@@ -1,5 +1,16 @@
 var Recently = [
     {
+        "date": "2026/04/03",
+        "type": "AppleMusic",
+        "title": "人间 - Faye Wong",
+        "lyric": [
+            "但愿你的眼睛只看到笑容",
+            "但愿你流下每一滴泪都让人感动",
+            "但愿你以后每个梦不会一场空",
+        ],
+        "embedLink": "https://embed.music.apple.com/cn/album/%E4%BA%BA%E9%97%B4-live/966486703?i=966487207"
+    },
+    {
         "date": "2026/04/01",
         "type": "AppleMusic",
         "title": "弥足珍贵 - 洪卓立",
@@ -38,7 +49,7 @@ var Recently = [
         "lyric": [
             "愿你知生命实在亦是有些意外",
             "不用徬徨迷途只须紧记",
-            "它有无穷色彩　它有无尽的爱",
+            "它有无穷色彩 它有无尽的爱",
             "愿凭著自信垮过障碍赛",
         ],
         "embedLink": "https://embed.music.apple.com/cn/album/%E7%94%9F%E5%91%BD%E6%9C%89%E4%BB%B7/1401319694?i=1401319709"
