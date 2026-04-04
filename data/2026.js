@@ -1,5 +1,18 @@
 var Recently = [
     {
+        "date": "2026/04/04",
+        "type": "AppleMusic",
+        "title": "爱得太迟 - Leo Ku",
+        "lyric": [
+            "有些心意 不可等某个日子",
+            "盲目地发奋 忙忙忙其实自私",
+            "梦中也习惯 有压力要我得志",
+            "最可怕是 爱需要及时",
+            "只差一秒 心声都已变历史",
+        ],
+        "embedLink": "https://embed.music.apple.com/cn/album/%E7%88%B1%E5%BE%97%E5%A4%AA%E8%BF%9F/1531929240?i=1531929450&l=en-GB"
+    },
+    {
         "date": "2026/04/03",
         "type": "AppleMusic",
         "title": "人间 - Faye Wong",
