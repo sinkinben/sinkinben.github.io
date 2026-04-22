@@ -1,5 +1,18 @@
 var Recently = [
     {
+        "date": "2026/04/22",
+        "type": "Spotify",
+        "title": "漩涡 - 彭羚",
+        "lyric": [
+            "逾越了理性 超過自然",
+            "瞞住了上帝 讓你到身邊",
+            "即使愛你愛到你 變成碎片",
+            "仍有我接應你 落地上天",
+            "如你化作了粉末 誰還要健全",
+        ],
+        "embedLink": "https://open.spotify.com/embed/track/6wvknxG5TtTi2n9ESlJE1l?si=7ca0c146674340d6"
+    },
+    {
         "date": "2026/04/04",
         "type": "AppleMusic",
         "title": "爱得太迟 - Leo Ku",
